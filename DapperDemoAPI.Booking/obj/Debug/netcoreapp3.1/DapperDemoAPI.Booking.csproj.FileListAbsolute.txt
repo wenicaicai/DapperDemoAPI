@@ -1,0 +1,9 @@
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\bin\Debug\netcoreapp3.1\DapperDemoAPI.Booking.deps.json
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\bin\Debug\netcoreapp3.1\DapperDemoAPI.Booking.dll
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\bin\Debug\netcoreapp3.1\DapperDemoAPI.Booking.pdb
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\obj\Debug\netcoreapp3.1\DapperDemoAPI.Booking.csprojAssemblyReference.cache
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\obj\Debug\netcoreapp3.1\DapperDemoAPI.Booking.csproj.CoreCompileInputs.cache
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\obj\Debug\netcoreapp3.1\DapperDemoAPI.Booking.AssemblyInfoInputs.cache
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\obj\Debug\netcoreapp3.1\DapperDemoAPI.Booking.AssemblyInfo.cs
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\obj\Debug\netcoreapp3.1\DapperDemoAPI.Booking.dll
+G:\Mile\DapperDemoAPI\DapperDemoAPI.Booking\obj\Debug\netcoreapp3.1\DapperDemoAPI.Booking.pdb

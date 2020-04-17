@@ -232,3 +232,5 @@ G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.RazorC
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.RazorTargetAssemblyInfo.cs
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.Views.pdb
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\Sockets_UDP.dll
+G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\Sockets_UDP.pdb

@@ -1,0 +1,9 @@
+G:\Mile\DapperDemoAPI\Sockets_UDP\bin\Debug\netcoreapp3.1\Sockets_UDP.deps.json
+G:\Mile\DapperDemoAPI\Sockets_UDP\bin\Debug\netcoreapp3.1\Sockets_UDP.dll
+G:\Mile\DapperDemoAPI\Sockets_UDP\bin\Debug\netcoreapp3.1\Sockets_UDP.pdb
+G:\Mile\DapperDemoAPI\Sockets_UDP\obj\Debug\netcoreapp3.1\Sockets_UDP.csprojAssemblyReference.cache
+G:\Mile\DapperDemoAPI\Sockets_UDP\obj\Debug\netcoreapp3.1\Sockets_UDP.csproj.CoreCompileInputs.cache
+G:\Mile\DapperDemoAPI\Sockets_UDP\obj\Debug\netcoreapp3.1\Sockets_UDP.AssemblyInfoInputs.cache
+G:\Mile\DapperDemoAPI\Sockets_UDP\obj\Debug\netcoreapp3.1\Sockets_UDP.AssemblyInfo.cs
+G:\Mile\DapperDemoAPI\Sockets_UDP\obj\Debug\netcoreapp3.1\Sockets_UDP.dll
+G:\Mile\DapperDemoAPI\Sockets_UDP\obj\Debug\netcoreapp3.1\Sockets_UDP.pdb

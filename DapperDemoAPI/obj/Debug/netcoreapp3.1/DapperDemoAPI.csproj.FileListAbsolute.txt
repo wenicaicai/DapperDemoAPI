@@ -238,3 +238,5 @@ G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.csproj
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cs
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cache
 G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\ComplexClassToUseMapper.dll
+G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\ComplexClassToUseMapper.pdb

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ComplexClassToUseMapper;
 using DapperDemoAPI.Models;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,11 @@ namespace DapperDemoAPI
         {
             //var config = new MapperConfiguration(cfg => cfg.CreateMap<Customer, PotentialCustomer>());
 
-            var config = new MapperConfiguration(cfg => 
+            var config = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<Customer, PotentialCustomer>();
                 cfg.CreateMap<Student, UniversityStu>();
-                cfg.CreateMap<UniversityStu, Student>();
+                cfg.CreateMap<Order, OrderDto>();
             });
 
 

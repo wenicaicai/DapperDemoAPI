@@ -67,7 +67,7 @@ namespace DapperDemoAPI.DAL
             return result;
         }
 
-        public UniversityStu MapCustomer(Student student)
+        public UniversityStu MapCustomerI(Student student)
         {
             var imapper = AutoMapperConfig.GetMapper();
             var result = imapper.Map<UniversityStu>(student);

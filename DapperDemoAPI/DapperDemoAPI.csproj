@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ComplexClassToUseMapper\ComplexClassToUseMapper.csproj" />
     <ProjectReference Include="..\ServiceLifeCycle\ServiceLifeCycle.csproj" />
     <ProjectReference Include="..\Sockets_UDP\Sockets_UDP.csproj" />
   </ItemGroup>

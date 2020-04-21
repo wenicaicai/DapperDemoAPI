@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperDemoAPI.Booking", "Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockets_UDP", "Sockets_UDP\Sockets_UDP.csproj", "{E54BDBBB-F057-49C7-B5C1-272D919FE06C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLifeCycle", "ServiceLifeCycle\ServiceLifeCycle.csproj", "{9ABC74DB-8106-4126-B7DA-27ECA2EA8176}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLifeCycle", "ServiceLifeCycle\ServiceLifeCycle.csproj", "{9ABC74DB-8106-4126-B7DA-27ECA2EA8176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexClassToUseMapper", "ComplexClassToUseMapper\ComplexClassToUseMapper.csproj", "{AC871D4B-12D9-4EE0-9FB8-ECD83DBD2943}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9ABC74DB-8106-4126-B7DA-27ECA2EA8176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ABC74DB-8106-4126-B7DA-27ECA2EA8176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ABC74DB-8106-4126-B7DA-27ECA2EA8176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC871D4B-12D9-4EE0-9FB8-ECD83DBD2943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC871D4B-12D9-4EE0-9FB8-ECD83DBD2943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC871D4B-12D9-4EE0-9FB8-ECD83DBD2943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC871D4B-12D9-4EE0-9FB8-ECD83DBD2943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

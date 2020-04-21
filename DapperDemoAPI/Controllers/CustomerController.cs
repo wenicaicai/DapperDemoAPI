@@ -15,12 +15,14 @@ namespace DapperDemoAPI.Controllers
     public class CustomerController : ControllerBase
     {
         //private IConfiguration _configuration;
-        private CustomerRepository _ourCustomerRepository;
+        //private CustomerRepository _ourCustomerRepository;
+        private ICustomerRepository _ourCustomerRepository;
 
         public CustomerController(IConfiguration configuration)
         {
             //_configuration = configuration;
             _ourCustomerRepository = new CustomerRepository(configuration.GetSection("DefaultConnection").Value);
+            //_ourCustomerRepository = customerRepository;
         }
 
         // GET: api/Customer
@@ -44,8 +46,8 @@ namespace DapperDemoAPI.Controllers
         public bool Post([FromBody] Customer ourCustomer)
         {
             var result = _ourCustomerRepository.MapCustomer(ourCustomer);
-            var student = new Student { Age=17, StuName="Yi", Subject="Wuli" };
-            var result_I = _ourCustomerRepository.MapCustomer(student);
+            var student = new Student { Age = 17, StuName = "Yi", Subject = "Wuli" };
+            var result_I = _ourCustomerRepository.MapCustomerI(student);
             return _ourCustomerRepository.InsertCustomer(ourCustomer);
         }
 

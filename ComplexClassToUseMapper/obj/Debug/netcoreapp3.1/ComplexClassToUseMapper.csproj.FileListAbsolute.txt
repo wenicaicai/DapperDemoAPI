@@ -1,0 +1,9 @@
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\bin\Debug\netcoreapp3.1\ComplexClassToUseMapper.deps.json
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\bin\Debug\netcoreapp3.1\ComplexClassToUseMapper.dll
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\bin\Debug\netcoreapp3.1\ComplexClassToUseMapper.pdb
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\obj\Debug\netcoreapp3.1\ComplexClassToUseMapper.csprojAssemblyReference.cache
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\obj\Debug\netcoreapp3.1\ComplexClassToUseMapper.csproj.CoreCompileInputs.cache
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\obj\Debug\netcoreapp3.1\ComplexClassToUseMapper.AssemblyInfoInputs.cache
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\obj\Debug\netcoreapp3.1\ComplexClassToUseMapper.AssemblyInfo.cs
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\obj\Debug\netcoreapp3.1\ComplexClassToUseMapper.dll
+G:\Mile\DapperDemoAPI\ComplexClassToUseMapper\obj\Debug\netcoreapp3.1\ComplexClassToUseMapper.pdb

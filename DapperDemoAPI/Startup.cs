@@ -1,4 +1,5 @@
 using AutoMapper;
+using DapperDemoAPI.DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -35,6 +36,8 @@ namespace DapperDemoAPI
             services.AddScoped<IOperationScoped, Operation>();
 
             services.AddTransient<OperationService, OperationService>();
+
+            services.AddSingleton<IOrderService, OrderService>();
 
 
         }

@@ -18,6 +18,7 @@ namespace DapperDemoAPI.DAL
         bool DeleteCustomer(int customerId);
         bool UpdateCustomer(Customer ourCustomer);
 
-        UniversityStu MapCustomer(Student student);
+        PotentialCustomer MapCustomer(Customer customers);
+        UniversityStu MapCustomerI(Student student);
     }
 }

@@ -2802,6 +2802,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "ComplexClassToUseMapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ComplexClassToUseMapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ComplexClassToUseMapper.dll": {}
+        }
+      },
       "ServiceLifeCycle/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -8671,6 +8681,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "ComplexClassToUseMapper/1.0.0": {
+      "type": "project",
+      "path": "../ComplexClassToUseMapper/ComplexClassToUseMapper.csproj",
+      "msbuildProject": "../ComplexClassToUseMapper/ComplexClassToUseMapper.csproj"
+    },
     "ServiceLifeCycle/1.0.0": {
       "type": "project",
       "path": "../ServiceLifeCycle/ServiceLifeCycle.csproj",
@@ -8685,6 +8700,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper >= 9.0.0",
+      "ComplexClassToUseMapper >= 1.0.0",
       "Dapper >= 2.0.35",
       "Microsoft.AspNetCore.Mvc.TagHelpers >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.1",
@@ -8726,6 +8742,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "G:\\Mile\\DapperDemoAPI\\ComplexClassToUseMapper\\ComplexClassToUseMapper.csproj": {
+              "projectPath": "G:\\Mile\\DapperDemoAPI\\ComplexClassToUseMapper\\ComplexClassToUseMapper.csproj"
+            },
             "G:\\Mile\\DapperDemoAPI\\ServiceLifeCycle\\ServiceLifeCycle.csproj": {
               "projectPath": "G:\\Mile\\DapperDemoAPI\\ServiceLifeCycle\\ServiceLifeCycle.csproj"
             },

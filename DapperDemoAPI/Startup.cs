@@ -1,9 +1,11 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ServiceLifeCycle;
 
 namespace DapperDemoAPI
 {
@@ -27,6 +29,15 @@ namespace DapperDemoAPI
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "API 404" });
 
             });
+
+            services.AddTransient<IOperationTransient, Operation>();
+            services.AddSingleton<IOperationSingleton, Operation>();
+            services.AddScoped<IOperationScoped, Operation>();
+
+            services.AddTransient<OperationService, OperationService>();
+
+            var config = new MapperConfiguration(cfg=>cfg.CreateMap<Customer, PotentialCustomer>());
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +66,7 @@ namespace DapperDemoAPI
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=ServiceLifeCycle}/{id?}");
             });
 
             //app.UseEndpoints(endpoints =>

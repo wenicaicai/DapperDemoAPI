@@ -42,6 +42,7 @@ namespace DapperDemoAPI.Controllers
         [HttpPost]
         public bool Post([FromBody] Customer ourCustomer)
         {
+            var result = _ourCustomerRepository.MapCustomer(ourCustomer);
             return _ourCustomerRepository.InsertCustomer(ourCustomer);
         }
 

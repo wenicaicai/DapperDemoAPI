@@ -15,4 +15,9 @@ namespace DapperDemoAPI
 
         public bool IsActive { get; set; }
     }
+
+    public class PotentialCustomer
+    {
+        public string CustomerFirstName { get; set; }
+    }
 }

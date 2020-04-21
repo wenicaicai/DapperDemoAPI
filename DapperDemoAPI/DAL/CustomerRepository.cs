@@ -1,4 +1,5 @@
-﻿using Dapper;
+﻿using AutoMapper;
+using Dapper;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -61,6 +62,12 @@ namespace DapperDemoAPI.DAL
             if (rowAffected > 0)
                 return true;
             return false;
+        }
+
+        public PotentialCustomer MapCustomer(Customer customers)
+        {
+            var result = Mapper.Map<PotentialCustomer>(customers);
+            return result;
         }
     }
 }

@@ -1,0 +1,9 @@
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\bin\Debug\netcoreapp3.1\ServiceLifeCycle.deps.json
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\bin\Debug\netcoreapp3.1\ServiceLifeCycle.dll
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\bin\Debug\netcoreapp3.1\ServiceLifeCycle.pdb
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\obj\Debug\netcoreapp3.1\ServiceLifeCycle.csprojAssemblyReference.cache
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\obj\Debug\netcoreapp3.1\ServiceLifeCycle.csproj.CoreCompileInputs.cache
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\obj\Debug\netcoreapp3.1\ServiceLifeCycle.AssemblyInfoInputs.cache
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\obj\Debug\netcoreapp3.1\ServiceLifeCycle.AssemblyInfo.cs
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\obj\Debug\netcoreapp3.1\ServiceLifeCycle.dll
+G:\Mile\DapperDemoAPI\ServiceLifeCycle\obj\Debug\netcoreapp3.1\ServiceLifeCycle.pdb

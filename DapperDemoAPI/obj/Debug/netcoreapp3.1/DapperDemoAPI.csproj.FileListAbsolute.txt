@@ -221,9 +221,6 @@ G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore
 G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.csproj.CoreCompileInputs.cache
-G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cs
-G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cache
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.RazorAssemblyInfo.cache
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.RazorAssemblyInfo.cs
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.TagHelpers.input.cache
@@ -234,3 +231,10 @@ G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.Views.
 G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\Sockets_UDP.dll
 G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\Sockets_UDP.pdb
+G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\Razor\Views\Home\ServiceLifeCycle.cshtml.g.cs
+G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\ServiceLifeCycle.dll
+G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\ServiceLifeCycle.pdb
+G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.csproj.CoreCompileInputs.cache
+G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\Mile\DapperDemoAPI\DapperDemoAPI\obj\Debug\netcoreapp3.1\DapperDemoAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\Mile\DapperDemoAPI\DapperDemoAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll

@@ -1,13 +1,9 @@
-﻿using AutoMapper;
-using Dapper;
-using Microsoft.Extensions.Configuration;
-using System;
+﻿using Dapper;
+using DapperDemoAPI.Models;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
 
 namespace DapperDemoAPI.DAL
 {
@@ -66,8 +62,18 @@ namespace DapperDemoAPI.DAL
 
         public PotentialCustomer MapCustomer(Customer customers)
         {
-            var result = Mapper.Map<PotentialCustomer>(customers);
+            var imapper = AutoMapperConfig.GetMapper();
+            var result = imapper.Map<PotentialCustomer>(customers);
             return result;
         }
+
+        public UniversityStu MapCustomer(Student student)
+        {
+            var imapper = AutoMapperConfig.GetMapper();
+            var result = imapper.Map<UniversityStu>(student);
+            return result;
+        }
+
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DapperDemoAPI.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -16,5 +17,7 @@ namespace DapperDemoAPI.DAL
 
         bool DeleteCustomer(int customerId);
         bool UpdateCustomer(Customer ourCustomer);
+
+        UniversityStu MapCustomer(Student student);
     }
 }

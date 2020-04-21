@@ -36,7 +36,6 @@ namespace DapperDemoAPI
 
             services.AddTransient<OperationService, OperationService>();
 
-            var config = new MapperConfiguration(cfg=>cfg.CreateMap<Customer, PotentialCustomer>());
 
         }
 

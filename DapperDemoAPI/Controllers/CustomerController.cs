@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DapperDemoAPI.DAL;
+using DapperDemoAPI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -43,6 +44,8 @@ namespace DapperDemoAPI.Controllers
         public bool Post([FromBody] Customer ourCustomer)
         {
             var result = _ourCustomerRepository.MapCustomer(ourCustomer);
+            var student = new Student { Age=17, StuName="Yi", Subject="Wuli" };
+            var result_I = _ourCustomerRepository.MapCustomer(student);
             return _ourCustomerRepository.InsertCustomer(ourCustomer);
         }
 

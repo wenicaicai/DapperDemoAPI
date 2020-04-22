@@ -1,0 +1,16 @@
+﻿
+		IF OBJECT_ID('MyShippers','U') IS NOT NULL
+			DROP TABLE MyShippers;
+
+		CREATE TABLE MyShippers
+		(
+			shipper_id INT NOT NULL,
+			companyname nvarchar(40) NOT NULL,
+			phone nvarchar(24) NOT NULL,
+			CONSTRAINT PK_Myshippers PRIMARY KEY(shipper_id)
+		);
+
+		INSERT INTO MyShippers(shipper_id,companyname,phone)
+		VALUES(1,N'shipperI',N'(503) 555-407'),
+		(2,N'shipperII',N'(503) 555-408'),
+		(3,N'shipperIII',N'(503) 555-417')

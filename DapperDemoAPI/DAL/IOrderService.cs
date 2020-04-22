@@ -11,5 +11,7 @@ namespace DapperDemoAPI.DAL
         Order GenOrder();
 
         OrderDto GenOrderI();
+
+        OrderDto GenOrderII();
     }
 }

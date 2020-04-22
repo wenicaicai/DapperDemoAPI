@@ -1,5 +1,6 @@
 using AutoMapper;
 using DapperDemoAPI.DAL;
+using DapperDemoAPI.Filters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -39,6 +40,21 @@ namespace DapperDemoAPI
 
             services.AddSingleton<IOrderService, OrderService>();
 
+            //services.AddMvc(options =>
+            //{
+            //    options.Filters.Add<AuthorizationFilter>();
+            //    options.Filters.Add<ResourceFilter>();
+            //    options.Filters.Add<ActionFilter>();
+            //    options.Filters.Add<ResultFilter>();
+            //    options.Filters.Add<DapperExceptionFilter>();
+            //});
+
+            //services.AddControllersWithViews(config=> 
+            //{
+            //    config.Filters.Add(new AuthorizationFilter());
+            //});
+
+
 
         }
 
@@ -69,6 +85,7 @@ namespace DapperDemoAPI
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=ServiceLifeCycle}/{id?}");
+                    //pattern: "{controller=Home}/{action=UseFilter}/{id?}");
             });
 
             //app.UseEndpoints(endpoints =>

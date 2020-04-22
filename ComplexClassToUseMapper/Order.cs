@@ -9,6 +9,7 @@ namespace ComplexClassToUseMapper
     {
         private readonly IList<OrderLineItem> _orderLineItems = new List<OrderLineItem>();
 
+        public decimal Total { get; set; }
         public CustomerCx Customera { get; set; }
 
         public OrderLineItem[] GetOrderLineItems(Product product, int quantity)

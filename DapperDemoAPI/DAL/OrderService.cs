@@ -52,5 +52,37 @@ namespace DapperDemoAPI.DAL
 
             return result;
         }
+
+        public OrderDto GenOrderII()
+        {
+            var customer = new CustomerCx { Name = "Bob" };
+
+            var order = new Order { Customera = customer, Total = 15.8m };
+
+            var imapper = AutoMapperConfig.GetMapper();
+
+            var orderDto = imapper.Map<OrderDto>(order);
+
+            orderDto.CustomeraName = "Joe";
+
+            imapper.Map(orderDto, order);
+
+            return orderDto;
+        }
+
+        public CalendarEventForm GenIV()
+        {
+            var calentdatEnvet = new CalendarEvent
+            {
+                Date = new DateTime(2020, 04, 22, 20, 15, 0),
+                Title = "Company Holiday Party"
+            };
+
+            var imapper = AutoMapperConfig.GetMapper();
+
+            CalendarEventForm calendarEventForm = imapper.Map<CalendarEvent, CalendarEventForm>(calentdatEnvet);
+
+            return calendarEventForm;
+        }
     }
 }

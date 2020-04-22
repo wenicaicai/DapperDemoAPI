@@ -36,5 +36,13 @@ namespace DapperDemoAPI.Controllers
             var result = _orderService.GenOrderI();
             return result;
         }
+
+        [Route("OrderDtoII")]
+        [HttpGet]
+        public OrderDto OrderDtoII()
+        {
+            var result = _orderService.GenOrderII();
+            return result;
+        }
     }
 }

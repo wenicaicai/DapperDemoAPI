@@ -18,7 +18,17 @@ namespace DapperDemoAPI
             {
                 cfg.CreateMap<Customer, PotentialCustomer>();
                 cfg.CreateMap<Student, UniversityStu>();
-                cfg.CreateMap<Order, OrderDto>();
+                //cfg.CreateMap<Order, OrderDto>();
+                //cfg.CreateMap<Order, OrderDto>().ReverseMap();
+                cfg.CreateMap<Order, OrderDto>()
+                .ForMember(d => d.CustomeraName, opt => opt.MapFrom(src => src.Customera.Name))
+                .ReverseMap()
+                .ForPath(s => s.Customera.Name, opt => opt.Ignore());
+                //Projection
+                cfg.CreateMap<CalendarEvent, CalendarEventForm>()
+                .ForMember(dest => dest.EventDate, opt => opt.MapFrom(src => src.Date))
+                .ForMember(dest => dest.EventHour, opt => opt.MapFrom(src => src.Date.Hour))
+                .ForMember(dest => dest.EventMinute, opt => opt.MapFrom(src => src.Date.Minute));
             });
 
 

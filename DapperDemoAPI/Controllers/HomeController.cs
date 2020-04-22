@@ -74,5 +74,10 @@ namespace DapperDemoAPI.Controllers
             Result = stringBuilder.ToString();
             return Content(Result);
         }
+
+        public IActionResult UseFilter()
+        {
+            return Content("use F12 to see detail.");
+        }
     }
 }
